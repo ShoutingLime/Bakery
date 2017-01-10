@@ -41,7 +41,7 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('sass', function() {
-  return gulp.src('app/sass/**/*.sass')
+  return gulp.src(['app/sass/**/*.sass', 'app/sass/**/*.scss'])
   .pipe(sass().on("error", notify.onError()))
   .pipe(rename({suffix: '.min', prefix : ''}))
   .pipe(autoprefixer(['last 15 versions']))
@@ -59,7 +59,7 @@ gulp.task('watch', ['sass', 'scripts', 'browser-sync'], function() {
 gulp.task('imagemin', function() {
   return gulp.src('app/img/**/*')
   .pipe(cache(imagemin()))
-  .pipe(gulp.dest('dist/img')); 
+  .pipe(gulp.dest('dist/img'));
 });
 
 gulp.task('build', ['removedist', 'imagemin', 'sass', 'scripts'], function() {
