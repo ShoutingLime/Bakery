@@ -1,0 +1,104 @@
+.citation {
+  max-width: 500px;
+  margin-top: -16px;
+  clear: both;
+}
+
+.citation__header--top {
+  font-family: "Alegreya-Bold", Alegreya-Bold, serif;
+  color: #56534c;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  font-style: normal;
+  margin-left: 263px;
+  letter-spacing: 0.6px;
+}
+
+.citation__header--left {
+  display: inline-block;
+  float: left;
+  width: 110px;
+  height: 60px;
+  color: #56534c;
+  font-family: "Alegreya", Alegreya, serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  font-style: normal;
+  margin-top: 62px;
+  margin-left: 131px;
+  letter-spacing: 0.6px;
+  border-top: 1px solid #d7d5ca;
+  border-bottom: 1px solid #d7d5ca;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.citation__header--right {
+  display: inline-block;
+  float: left;
+  width: 110px;
+  height: 60px;
+  color: #56534c;
+  font-family: "Alegreya", Alegreya, serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  font-style: normal;
+  margin-top: -60px;
+  margin-left: 391px;
+  letter-spacing: 0.6px;
+  border-top: 1px solid #d7d5ca;
+  border-bottom: 1px solid #d7d5ca;
+  padding-top: 14px;
+  padding-left: 13px;
+}
+
+.citation__header--center {
+  background-color: #ccc;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 267px;
+  margin-top: -80px;
+}
+
+.citation__text {
+  max-width: 410px;
+  font-family: "Scriptina-Pro", Scriptina-Pro, serif;
+  color: #a47d5e;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 85px;
+  margin-right: 60px;
+  margin-top: 33px;
+  padding-left: 115px;
+  letter-spacing: 0.65px;
+}
+
+.citation__text::before {
+  content: "";
+  background: url(/img/spritesheet.png) no-repeat;
+  background-position: -5px -5px;
+  display: block;
+  width: 23px;
+  height: 14px;
+  position: relative;
+  top: -10px;
+  left: -87px;
+}
+
+.citation__text::after {
+  content: "";
+  background: url(/img/spritesheet.png) no-repeat;
+  background-position: -38px -5px;
+  display: block;
+  width: 23px;
+  height: 14px;
+  position: relative;
+  top: -2px;
+  left: 295px;
+}

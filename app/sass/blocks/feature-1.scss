@@ -1,0 +1,138 @@
+.feature-1 {
+  min-height: 778px;
+  clear: both;
+  padding-left: 170px;
+  padding-right: 170px;
+  background-image: url(../img/feature-1_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 18px;
+}
+
+.feature-1__ledge {
+  position: relative;
+  margin-top: -80px;
+  margin-left: 604px;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  top: -17px;
+  left: -15px;
+  border-radius: 50%;
+  background-image: url(../img/feature-1_ledge.png);
+  background-repeat: no-repeat;
+  background-position: 15px 17px;
+  z-index: 15;
+}
+
+.feature-1__ledge::after {
+  content: "";
+  width: 106px;
+  height: 106px;
+  position: relative;
+  display: block;
+  top: -14px;
+  left: -13px;
+  background-image: url(../img/feature-1_napkin.png);
+}
+
+.feature-1__left-column {
+  width: 630px;
+  float: left;
+}
+
+.feature-1__right-column {
+  width: 630px;
+  float: left;
+}
+
+.page-section__header {
+  font-family: "Alegreya-Bold", Alegreya-Bold, serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: #56534c;
+  font-size: 48px;
+  margin-top: 47px;
+  margin-left: 193px;
+  letter-spacing: 1px;
+}
+
+.page-section__slogan {
+  font-family: "Alegreya-Bold", Alegreya-Bold, serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: #a47d5e;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: -28px;
+  margin-left: 187px;
+  letter-spacing: 1.4px;
+}
+
+.page-section__text {
+  max-width: 500px;
+  color: #56534c;
+  font-family: "Proxima-Nova", Proxima-Nova-Regular, serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 53px 68px 50px 68px;
+  letter-spacing: 1.4px;
+  text-align: center;
+}
+
+.feature-1__image--top-left {
+  width: 295px;
+  height: 250px;
+  margin-left: 10px;
+  margin-top: 58px;
+  margin-right: 16px;
+  margin-bottom: 20px;
+}
+
+.feature-1__image--top-right {
+  width: 295px;
+  height: 250px;
+  margin-top: 35px;
+}
+
+.feature-1__image--bottom-left {
+  width: 295px;
+  height: 250px;
+  margin-left: 10px;
+  margin-right: 16px;
+}
+
+.feature-1__image {
+  outline: 5px solid #fff;
+  outline-offset: -11px;
+}
+
+.feature-1__napkin-filter::before {
+  content: "Tastes so good!";
+  display: block;
+  color: #c9b176;
+  font-family: "Alegrey", Alegreya, serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin-top: -296px;
+  margin-left: 237px;
+  width: 160px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  z-index: 25;
+}
+
+.feature-1__napkin-filter::after {
+  content: "";
+  display: block;
+  position: relative;
+  background-image: url(../img/feature-1_big-napkin.png);
+  opacity: 0.8;
+  width: 279px;
+  height: 279px;
+  margin-top: -160px;
+  margin-left: 176px;
+  z-index: 20;
+}

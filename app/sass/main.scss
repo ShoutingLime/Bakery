@@ -1,0 +1,30 @@
+@import "normalize.scss";
+
+@import "fonts";
+@import "libs";
+@import "vars";
+
+/* Импорт стилей блоков */
+@import "blocks/page.scss";
+@import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/socials.scss";
+@import "blocks/page-content.scss";
+@import "blocks/intro.scss";
+@import "blocks/feature-1.scss";
+@import "blocks/page-section.scss";
+@import "blocks/citation.scss";
+@import "blocks/feature-2.scss";
+@import "blocks/visually-hidden.scss";
+@import "blocks/showcase.scss";
+@import "blocks/slider.scss";
+@import "blocks/tile.scss";
+@import "blocks/promo-1.scss";
+@import "blocks/breakfast-menu.scss";
+@import "blocks/paper.scss";
+@import "blocks/promo-2.scss";
+@import "blocks/promo-image.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/footer-nav.scss";
+
+@import "media"; // Всегда в конце

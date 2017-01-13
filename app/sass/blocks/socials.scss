@@ -1,0 +1,34 @@
+.socials {
+  float: right;
+  max-width: 190px;
+}
+
+.socials__item {
+  margin-top: -7px;
+  margin-left: 30px;
+  float: left;
+}
+
+.socials__link {
+  list-style: none;
+  background: url(/img/spritesheet.png) no-repeat;
+  display: block;
+}
+
+.socials__link--facebook {
+  width: 8px;
+  height: 16px;
+  background-position: -151px -5px;
+}
+
+.socials__link--instagram {
+  width: 14px;
+  height: 16px;
+  background-position: -169px -5px;
+}
+
+.socials__link--twitter {
+  width: 17px;
+  height: 16px;
+  background-position: -190px -3px;
+}
