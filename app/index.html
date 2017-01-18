@@ -72,40 +72,44 @@
   <section class="page-section feature-2">
     <h2 class="visually-hidden">Pancakes Section</h2>
     <article class="showcase">
-      <!-- завернутый уголок - псевдоэлементом -->
-      <div class="feature-2__rating">
-        <ul class="feature-2__list">
-          <li class="feature-2__item feature-2__item--starred"></li>
-          <li class="feature-2__item feature-2__item--starred"></li>
-          <li class="feature-2__item feature-2__item--starred"></li>
-          <li class="feature-2__item feature-2__item--starred"></li>
-          <li class="feature-2__item feature-2__item--non-starred"></li>
-        </ul>
-      </div>
-      <div class="feature-2__separator"></div>
-      <h2 class="page-section__header">Tasty pancakes</h2>
-      <p class="page-section__slogan">Season favourite</p>
-      <p class="page-section__text">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.</p>
-      <div class="slider"> <!-- предварительная разметка слайдера, см. заготовку на Codepen -->
-        <div class="slider__prev">&lt;</div>
-        <div class="slider__next">&gt;</div>
-          <div class="slider__template">
-            <div class="slider__fields slider__fields--field-1"></div>
-            <div class="slider__fields slider__fields--field-2"></div>
-            <div class="slider__fields slider__fields--field-3"></div>
-            <div class="slider__wrapper">
-              <div class="slider__slide slider__slide--1"><img src="http://placehold.it/90x90" width="90" height="90" alt="slide 1"></div>
-              <div class="slider__slide slider__slide--2"><img src="http://placehold.it/90x90" width="90" height="90" alt="slide 2"></div>
-              <div class="slider__slide slider__slide--3"><img src="http://placehold.it/90x90" width="90" height="90" alt="slide 3"></div>
-              <div class="slider__slide slider__slide--4"><img src="http://placehold.it/90x90" width="90" height="90" alt="slide 4"></div>
-              <div class="slider__slide slider__slide--5"><img src="http://placehold.it/90x90" width="90" height="90" alt="slide 5"></div>
-          </div>
+      <div class="showcase__part-left"  id="showcasePartLeft">
+        <div class="feature-2__rating">
+          <ul class="feature-2__list">
+            <li class="feature-2__item feature-2__item--starred"></li>
+            <li class="feature-2__item feature-2__item--starred"></li>
+            <li class="feature-2__item feature-2__item--starred"></li>
+            <li class="feature-2__item feature-2__item--starred"></li>
+            <li class="feature-2__item feature-2__item--non-starred"></li>
+          </ul>
         </div>
       </div>
-      <div class="showcase__time tile">
-        <div class="tile__ready-in">Ready in</div>
-        <div class="tile__time">40</div>
-        <div class="tile__mins">mins</div>
+      <div class="feature-2__separator" id="separator"><img src="img/feature-2_shutter.svg" alt="shutter"></div>
+      <div class="showcase__part-right--bg" id="showcasePartRight"></div>
+      <div class="showcase__part-right" id="showcasePartRightVisible">
+        <h2 class="page-section__header">Tasty pancakes</h2>
+        <p class="page-section__slogan">Season favourite</p>
+        <p class="page-section__text">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.</p>
+        <div class="slider"> <!-- предварительная разметка слайдера, см. заготовку на Codepen -->
+          <div class="slider__prev">&lt;</div>
+          <div class="slider__next">&gt;</div>
+            <div class="slider__template">
+              <div class="slider__fields slider__fields--field-1"></div>
+              <div class="slider__fields slider__fields--field-2"></div>
+              <div class="slider__fields slider__fields--field-3"></div>
+              <div class="slider__wrapper">
+                <div class="slider__slide slider__slide--1"><img src="img/slider_slide-1.jpg" width="90" height="90" alt="slide 1"></div>
+                <div class="slider__slide slider__slide--2"><img src="img/slider_slide-2.jpg" width="90" height="90" alt="slide 2"></div>
+                <div class="slider__slide slider__slide--3"><img src="img/slider_slide-3.jpg" width="90" height="90" alt="slide 3"></div>
+                <div class="slider__slide slider__slide--4"><img src="img/slider_slide-4.jpg" width="90" height="90" alt="slide 4"></div>
+                <div class="slider__slide slider__slide--5"><img src="img/slider_slide-5.jpg" width="90" height="90" alt="slide 5"></div>
+            </div>
+          </div>
+        </div>
+        <div class="showcase__time tile">
+          <div class="tile__ready-in">Ready in</div>
+          <div class="tile__time">40</div>
+          <div class="tile__mins">mins</div>
+        </div>
       </div>
     </article>
   </section>
@@ -214,6 +218,7 @@
     </ul>
   </nav>
 </footer>
+<script src="libs/jquery/dist/jquery.min.js"></script>
 <script src="js/scripts.min.js"></script>
 </body>
 </html>

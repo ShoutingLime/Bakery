@@ -3,9 +3,7 @@
   clear: both;
   padding-left: 170px;
   padding-right: 170px;
-  background-image: url(../img/feature-1_bg.jpg);
-  background-repeat: no-repeat;
-  background-position: 0 18px;
+  background: url('../img/feature-1_bg.jpg') no-repeat 0 18px;
 }
 
 .feature-1__ledge {
@@ -14,13 +12,10 @@
   margin-left: 604px;
   width: 80px;
   height: 80px;
-  background-color: #fff;
   top: -17px;
   left: -15px;
   border-radius: 50%;
-  background-image: url(../img/feature-1_ledge.png);
-  background-repeat: no-repeat;
-  background-position: 15px 17px;
+  background: #fff url('../img/feature-1_ledge.png') no-repeat 15px 17px;
   z-index: 15;
 }
 
@@ -32,7 +27,7 @@
   display: block;
   top: -14px;
   left: -13px;
-  background-image: url(../img/feature-1_napkin.png);
+  background-image: url('../img/feature-1_napkin.png');
 }
 
 .feature-1__left-column {
@@ -83,10 +78,7 @@
 .feature-1__image--top-left {
   width: 295px;
   height: 250px;
-  margin-left: 10px;
-  margin-top: 58px;
-  margin-right: 16px;
-  margin-bottom: 20px;
+  margin: 58px 16px 20px 10px;
 }
 
 .feature-1__image--top-right {
@@ -107,9 +99,23 @@
   outline-offset: -11px;
 }
 
+.feature-1__napkin-filter::after {
+  content: "";
+  display: block;
+  position: relative;
+  background-image: url('../img/feature-1_big-napkin.png');
+  opacity: 0.97;
+  width: 247px;
+  height: 247px;
+  margin-top: -160px;
+  margin-left: 192px;
+  z-index: 20;
+}
+
 .feature-1__napkin-filter::before {
   content: "Tastes so good!";
   display: block;
+  position: relative;
   color: #c9b176;
   font-family: "Alegrey", Alegreya, serif;
   font-size: 30px;
@@ -121,18 +127,5 @@
   width: 160px;
   text-align: center;
   letter-spacing: 1.4px;
-  z-index: 25;
-}
-
-.feature-1__napkin-filter::after {
-  content: "";
-  display: block;
-  position: relative;
-  background-image: url(../img/feature-1_big-napkin.png);
-  opacity: 0.8;
-  width: 279px;
-  height: 279px;
-  margin-top: -160px;
-  margin-left: 176px;
-  z-index: 20;
+  z-index: 2500;
 }

@@ -1,9 +1,8 @@
 .intro {
   width: 1600px;
   min-height: 900px;
-  background: url(../img/intro_bg.jpg) no-repeat;
-  background-color: #73797d;
-  padding-top: 245px;
+  background: #73797d url('../img/intro_bg.jpg') no-repeat;
+  padding-top: 260px;
   overflow: visible;
   z-index: 10;
 }
@@ -11,7 +10,7 @@
 .intro .intro__slogan {
   text-shadow: 0 1px 0 #3d3029;
   color: white;
-  font-family: PlayfairDisplay;
+  font-family: "PlayfairDisplay", PlayfairDisplay, serif;
   font-size: 92px;
   font-weight: 700;
   line-height: 24px;

@@ -1,0 +1,93 @@
+.slider {
+
+}
+
+.slider__template {
+  width: 340px;
+  height: 90px;
+}
+
+.slider__fields, .slider__slide, .slider__prev, .slider__next {
+  float: left;
+  margin-right: 30px;
+}
+
+.slider__template {
+  position: absolute;
+  top: 380px;
+  left: -30px;
+  width: 350px;
+  height: 90px;
+  margin-left: 120px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.slider__wrapper {
+  position: absolute;
+  width: 1000px;
+  height: 90px;
+  background-color: transparent;
+  margin-left: -312px;
+  z-index: -10;
+}
+
+.slider__prev, .slider__next {
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  background-color: tomato;
+  border-radius: 50%;
+  margin-top: 80px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.slider__prev {
+  left: 60px;
+}
+
+.slider__next {
+  left: 455px;
+}
+
+.slider__slide--1 {
+  margin-left: 210px;
+}
+
+.slider__slide {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+}
+
+.slider__fields {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: transparent;
+  position: absolute;
+}
+
+.slider__fields--field-1 {
+  left: 5px;
+}
+
+.slider__fields--field-2 {
+  left: 115px;
+}
+
+.slider__fields--field-3 {
+  left: 225px;
+}
+
+.slider__prev:active ~ .slider__template > .slider__wrapper {
+  margin-left: -202px;
+}
+
+.slider__next:active ~ .slider__template > .slider__wrapper {
+  margin-left: -422px;
+}
