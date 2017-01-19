@@ -1,4 +1,4 @@
-/*global window, document, getElementsByClassName, moveAt*/
+/*global window, document, getElementsByClassName, moveAt, $*/
 
 var separator = document.getElementById('separator'),
   showcasePartRight = document.getElementById('showcasePartRight'),
@@ -53,3 +53,15 @@ separator.ondragstart = function () {
   'use strict';
   return false;
 };
+
+// Slider initialization
+$('.slider').slick({
+  infinite: true,
+  draggable: false,
+  centerMode: true,
+  variableWidth: true,
+  lazyLoad: 'progressive',
+  initialSlide: 2,
+  slidesToShow: 3,
+  slidesToScroll: 1
+});

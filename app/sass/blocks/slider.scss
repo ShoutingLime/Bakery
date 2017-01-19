@@ -1,93 +1,79 @@
 .slider {
-
-}
-
-.slider__template {
-  width: 340px;
+  width: 330px;
   height: 90px;
-}
-
-.slider__fields, .slider__slide, .slider__prev, .slider__next {
-  float: left;
-  margin-right: 30px;
-}
-
-.slider__template {
-  position: absolute;
-  top: 380px;
-  left: -30px;
-  width: 350px;
-  height: 90px;
-  margin-left: 120px;
-  overflow: hidden;
-  z-index: 10;
-}
-
-.slider__wrapper {
-  position: absolute;
-  width: 1000px;
-  height: 90px;
-  background-color: transparent;
-  margin-left: -312px;
-  z-index: -10;
-}
-
-.slider__prev, .slider__next {
-  position: absolute;
-  width: 30px;
-  height: 25px;
-  background-color: tomato;
-  border-radius: 50%;
-  margin-top: 80px;
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.slider__prev {
-  left: 60px;
-}
-
-.slider__next {
-  left: 455px;
-}
-
-.slider__slide--1 {
-  margin-left: 210px;
+  left: 108px;
+  clear: both;
 }
 
 .slider__slide {
-  display: inline-block;
-  width: 90px;
-  height: 90px;
+  float: left;
+  position: relative;
+  display: block;
+  margin: 0 15px;
 }
 
-.slider__fields {
-  display: inline-block;
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  background-color: transparent;
+.slick-prev {
+  width: 31px;
+  height: 31px;
+  top: 45px;
+  left: -48px;
   position: absolute;
 }
 
-.slider__fields--field-1 {
-  left: 5px;
+.slick-next {
+  width: 31px;
+  height: 31px;
+  top: 45px;
+  left: 346px;
+  position: absolute;
 }
 
-.slider__fields--field-2 {
-  left: 115px;
+.slick-prev::before {
+  content: '';
+  width: 31px;
+  height: 31px;
+  border: 2px solid #56534c;
+  border-radius: 50%;
+  position: absolute;
+  display: block;
+  top: 0;
 }
 
-.slider__fields--field-3 {
-  left: 225px;
+.slick-prev::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 2px solid #56534c;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  position: absolute;
+  top: 11px;
+  left: 13px;
+  transform: rotate(45deg);
+  display: block;
 }
 
-.slider__prev:active ~ .slider__template > .slider__wrapper {
-  margin-left: -202px;
+.slick-next::before {
+  content: '';
+  width: 31px;
+  height: 31px;
+  border: 2px solid #56534c;
+  border-radius: 50%;
+  position: absolute;
+  display: block;
+  top: 0;
 }
 
-.slider__next:active ~ .slider__template > .slider__wrapper {
-  margin-left: -422px;
+.slick-next::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 2px solid #56534c;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  position: absolute;
+  top: 11px;
+  left: 8px;
+  transform: rotate(45deg);
+  display: block;
 }
