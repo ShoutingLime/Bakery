@@ -1,0 +1,35 @@
+.tile {
+  width: 200px;
+  height: 200px;
+  padding: 34px 53px 34px 51px;
+  font-family: Alegreya-Bold, 'Times New Roman', serif;
+  font-weight: 400;
+  line-height: 30px;
+  background: url('../img/feature-2-promo-2_tile-bg.png') no-repeat;
+  box-shadow: 0 20px 80px rgba(0,0,0,0.3);
+}
+
+.tile__ready-in {
+  color: #a47d5e;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: -9px;
+  margin-left: 3px;
+  letter-spacing: 1.6px;
+}
+
+.tile__time {
+  color: #dfc691;
+  font-size: 92px;
+  text-transform: uppercase;
+  margin-top: 36px;
+  letter-spacing: 10px;
+}
+
+.tile__mins {
+  color: #979285;
+  font-size: 18px;
+  margin-top: 24px;
+  margin-left: 28px;
+  letter-spacing: 1.6px;
+}

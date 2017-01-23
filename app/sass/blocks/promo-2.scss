@@ -1,0 +1,140 @@
+.promo-2 {
+  min-height: 970px;
+  padding-left: 170px;
+  padding-right: 170px;
+  padding-top: 57px;
+  background: #f3f1e9 url('../img/promo-2_bg.png') no-repeat center 0;
+  border: 1px solid #f3f1e9;
+}
+
+.promo-2 .page-section__header {
+   margin-left: 400px;
+   letter-spacing: 1.2px;
+}
+
+.promo-2 .page-section__slogan {
+  margin-left: 465px;
+  letter-spacing: 1.4px;
+}
+
+.promo-2__wrapper {
+  clear: both;
+}
+
+.page-section__aside,
+.promo-image {
+  float: left;
+}
+
+.page-section__aside {
+  width: 290px;
+}
+
+.ingredient__item--image {
+  text-align: center;
+  margin-top: -27px;
+}
+
+.ingredient__item--name {
+  color: #a47d5e;
+  font-family: Alegreya-Bold, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  margin-top: 20px;
+}
+
+.ingredient__item--description {
+  color: #56534c;
+  font-family: Proxima-Nova, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 1.33px;
+  margin-top: 20px;
+}
+
+.ingredient__item--2 .ingredient__item--image {
+  margin-top: 55px;
+}
+
+.ingredient__item--3 .ingredient__item--image {
+  margin-top: 55px;
+}
+
+.promo-image {
+  width: 920px;
+}
+
+.promo-image__image {
+  margin-top: 65px;
+  margin-left: 130px;
+  outline: 10px solid #fff;
+  outline-offset: -10px;
+  z-index: 50;
+}
+
+.promo-image__btn {
+  width: 171px;
+  height: 60px;
+  display: block;
+  position: relative;
+  background-color: #fff;
+  color: #dfc691;
+  font-family: Alegreya-Bold, 'Times New Roman', serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  border: 1px dashed #dfc691;
+  margin-left: 108px;
+  margin-top: -42px;
+  padding-top: 14px;
+  z-index: 100;
+}
+
+.promo-image__time {
+  position: relative;
+  margin-left: 760px;
+}
+
+.promo-image__time--1 {
+  margin-top: -597px;
+  background: #fff none;
+  opacity: 0.8;
+}
+
+.promo-image__time--1 .tile__ready-in,
+.promo-image__time--2 .tile__ready-in {
+  margin-top: 7px;
+  text-align: center;
+}
+
+.promo-image__time--1 .tile__time,
+.promo-image__time--2 .tile__time {
+  font-family: Alegreya-Bold, 'Times New Roman', serif;
+  font-weight: 700;
+  line-height: 30px;
+  color: #56534c;
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-left: 22px;
+  letter-spacing: 7px;
+}
+
+.promo-image__time--1 .tile__mins,
+.promo-image__time--2 .tile__mins {
+  margin-top: 14px;
+}
+
+.promo-image__time--2 {
+  margin-top: 1px;
+  background: #fff none;
+  opacity: 0.8;
+}

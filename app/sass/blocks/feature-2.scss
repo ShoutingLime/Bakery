@@ -4,7 +4,6 @@
   padding-left: 170px;
   padding-right: 170px;
   background: #e8e9e4 url('../img/feature-2_bg.jpg') no-repeat;
-  outline: 1px solid green;
   padding-top: 140px;
 }
 
@@ -22,6 +21,8 @@
 .showcase__part-right {
   width: 545px;
   height: 512px;
+  background: url('../img/feature-2_widget-bg.png') no-repeat 283px 215px;
+  background-clip: padding-box;
 }
 
 .showcase__part-right--bg {
@@ -85,7 +86,7 @@
   position: absolute;
   width: 50px;
   height: 50px;
-  left: 812px;
+  // left: 812px;
   top: 2031px;
   border-radius: 50%;
   background-color: #fff;

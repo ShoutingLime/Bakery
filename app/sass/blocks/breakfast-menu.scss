@@ -1,0 +1,108 @@
+.breakfast-menu .page-section__header {
+  font-family: Alegreya-Bold, 'Times New Roman', serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: white;
+  font-size: 60px;
+  margin-left: 224px;
+  letter-spacing: 3px;
+}
+
+.breakfast-menu .page-section__slogan {
+  font-family: Alegreya-Bold, 'Times New Roman', serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: #c8a593;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-left: 220px;
+  margin-top: -35px;
+  letter-spacing: 0.85px;
+}
+
+.breakfast-menu__variant--name {
+  font-family: Alegreya-Bold, 'Times New Roman', serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: white;
+  font-size: 30px;
+  margin-left: 262px;
+  margin-top: 56px;
+  letter-spacing: 1.5px;
+}
+
+.breakfast-menu__variant--description {
+  font-family: Proxima-Nova, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: #c2beba;
+  font-size: 16px;
+  margin-left: 202px;
+  margin-top: -36px;
+  letter-spacing: 0.8px;
+}
+
+.breakfast-menu__variant--price {
+  color: #dfc691;
+  font-family: Alegreya, 'Times New Roman', serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 310px;
+  margin-top: 6px;
+  letter-spacing: 1.5px;
+}
+
+.breakfast-menu__variant--variant-1 .breakfast-menu__variant--price::after {
+  content: '';
+  width: 90px;
+  height: 27px;
+  background-image: url('../img/promo-1_small-ornament.png');
+  background-repeat: no-repeat;
+  display: block;
+  position: relative;
+  margin-top: 15px;
+  margin-left: 3px;
+}
+
+.breakfast-menu__variant--variant-2 .breakfast-menu__variant--name {
+  margin-top: -30px;
+  margin-left: 275px;
+}
+
+.breakfast-menu__variant--variant-2 .breakfast-menu__variant--description {
+  margin-left: 239px;
+  margin-top: -34px;
+}
+
+.breakfast-menu__variant--variant-2 .breakfast-menu__variant--price {
+  margin-left: 316px;
+  margin-top: 18px;
+}
+
+.breakfast-menu__variant--variant-2 .breakfast-menu__variant--price::after {
+  content: '';
+  width: 90px;
+  height: 27px;
+  background-image: url('../img/promo-1_small-ornament.png');
+  background-repeat: no-repeat;
+  display: block;
+  position: relative;
+  margin-top: 17px;
+  margin-left: -3px;
+}
+
+.breakfast-menu__variant--variant-3 .breakfast-menu__variant--name {
+  margin-top: -27px;
+  margin-left: 304px;
+}
+
+.breakfast-menu__variant--variant-3 .breakfast-menu__variant--description {
+  margin-left: 254px;
+  margin-top: -34px;
+}
+
+.breakfast-menu__variant--variant-3 .breakfast-menu__variant--price {
+  margin-left: 318px;
+  margin-top: 19px;
+}
